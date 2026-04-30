@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoWebShop-E2E" verbose="1">
+    <listeners>
+        <listener class-name="com.tricentis.demowebshop.listeners.ExtentReporterListener"/>
+    </listeners>
+    <test name="Purchase flow">
+        <classes>
+            <class name="com.tricentis.demowebshop.tests.PurchaseFlowTest"/>
+        </classes>
+    </test>
+</suite>
